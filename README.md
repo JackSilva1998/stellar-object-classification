@@ -30,7 +30,7 @@ https://www.sdss.org/dr17/
 
 Dataset characteristics:
 
-- Total instances: 100,000
+- Total instances: 100,000. It was divided into 80% training data (80,000 instances) and 20% testing data (20,000 instances) using stratified sampling.
 - Total original columns: 18
 - Target variable: `class`
 - Target classes: GALAXY, QSO, STAR
@@ -61,7 +61,9 @@ The following preprocessing steps were performed:
    - `i_z = i - z`
 6. Included `redshift` as an input feature.
 7. Prepared the final dataset with 12 input features and one target column.
-8. Split the dataset into 80% training data and 20% testing data using stratified sampling.
+8. The dataset was split into training and testing sets using an 80:20 ratio:
+   - Training dataset (train_data.csv): 80,000 records (80%).
+   - Testing dataset (test_data.csv): 20,000 records (20%).
 9. Applied feature scaling through machine learning pipelines for the applicable algorithms.
 
 ## 5. Machine Learning Algorithms
