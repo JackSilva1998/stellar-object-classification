@@ -167,7 +167,7 @@ ML_Assignment_2/
 
 ## 11. Project Links
 
-- **GitHub Repository:** [Add GitHub repository URL]
+- **GitHub Repository:** [[Stellar Object Classification](https://github.com/JackSilva1998/stellar-object-classification)]
 - **Live Streamlit Application:** [Add deployed application URL]
 - **Dataset:** https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
 
